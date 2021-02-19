@@ -1,0 +1,266 @@
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+.navlink {
+    display: block;
+    position: relative;
+    top: -400px;
+    visibility: hidden;
+}
+
+
+.navbar{
+    background-color: #fff;
+}
+.navbar-brand{
+    font-family: poppins, serif;
+    letter-spacing: -0.5px;
+    font-size: 27px;
+    font-weight: 300;   
+}
+
+.nav-item{
+    font-size: 15px;
+}
+
+.carousel{
+    padding-top: 1.5rem;
+}
+
+.carousel-caption{
+    bottom: 450px;
+}
+
+.carousel-item{
+    min-height: 100vh;
+    background-color: #1d1c1c;
+}
+
+.carousel-item img{
+    min-height: 100vh;
+    object-fit: cover;
+
+}
+.carousel-caption h5{
+    font-size: 32px;
+    font-weight: 300;
+    color: #434343;
+}
+
+.carousel-caption h6{
+    font-size: 22px;
+    font-weight: 700;
+    color: #434343;
+}
+
+/* .btn {
+    background-color: #7ffbd5;
+    color: #2b2b2b;
+    border:none;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.btn:hover {
+    background-color: teal; */
+
+#services {
+    margin:5rem 3rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+#services h2{
+    font-size:32px;
+    padding: 1px 5px;
+}
+
+#services p{
+    font-size:20px;
+    font-weight:300;
+}
+
+#features {
+    margin-bottom: 5rem;
+}
+
+.features-card{
+    padding: 30px 30px;
+}
+
+.features-card img{
+    height: 9rem;
+}
+
+.features-card h3{
+    font-size:26px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.features-card p{
+    font-size:20px;
+    font-weight: 200;
+}
+
+
+#bullets{
+    background-color: #2b2b2b;
+    color: #7ffbd5;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+  
+#bullets h2{
+    font-size:32px;
+    padding: 1px 5px;
+    font-family: poppins;
+}
+
+#benefits{
+    background-color: #2b2b2b;
+    color: white;
+    padding-bottom: 1rem;
+    font-family: poppins;
+}
+
+#benefits ul{
+    font-size:20px;
+    font-weight: 200;
+    padding: 10px 5px;
+}
+
+#benefits li{
+    margin: 0;
+	padding: 15px 0 10px 50px;
+	list-style: none;
+	background-image: url("img/dot_01.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+
+#process {
+    margin-top:5rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+#process h2{
+    font-size:32px;
+    padding: 1px 5px 0px 0px;
+}
+
+#process p{
+    font-size:20px;
+    font-weight:300;
+}
+
+#product {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+#product img{
+    height: 15rem;
+}
+
+
+#product h3{
+    font-size:26px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+#product p{
+    font-size:20px;
+    font-weight: 200;
+    padding-bottom: 1rem;
+    padding-left:3rem;
+    padding-right:3rem;
+}
+
+
+
+#reel{
+    background-color: #2b2b2b;
+    color: #7ffbd5;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+  
+#reel h2{
+    font-size:32px;
+    padding: 1px 5px;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+#video{
+    background-color:#2b2b2b;
+    padding-bottom: 0.5rem;
+}
+
+
+#contact{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+#contact img{
+    height: 6rem;
+}
+
+#contact h2{
+    font-size:26px;
+    font-weight: 700;
+}
+
+#contact h3{
+    font-size:26px;
+    font-weight: 400;
+}
+
+#contact p{
+    font-size:20px;
+    font-weight: 200;
+}
